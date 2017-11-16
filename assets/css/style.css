@@ -1,0 +1,33 @@
+#pacmanheader {
+    height: 200px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(http://viralpirate.com/wp-content/uploads/2016/07/Pacman-Maze-Wallpaper-02.png);
+}
+
+.container {
+    text-align: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 10px
+}
+
+#pacman {
+    height: 180px;
+    width: 180px;
+    margin-right: 80px;
+}
+
+#targetNumber {
+    color: yellow;
+    text-shadow: 0px 0px 50px rgb(255, 251, 0);
+}
