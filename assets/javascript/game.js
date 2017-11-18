@@ -3,7 +3,6 @@ $(document).ready(function() {
     var minNumber = 1;
     var maxNumber = 100;
     var targetNumber = Math.floor(Math.random() * (maxNumber - minNumber + 1) + minNumber);
-    targetNumber = 20;
 
     $("#targetNumber").append(" " + targetNumber);
     
